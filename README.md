@@ -1,20 +1,44 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Ecommerce AI Chatbot 🤖🛒
 
-# Run and deploy your AI Studio app
+An AI-powered ecommerce assistant built using **Vite, React, and TypeScript**, integrated with **Google Gemini API**.  
+The chatbot helps users with product-related queries, recommendations, and general shopping assistance.
 
-This contains everything you need to run your app locally.
+---
 
-View your app in AI Studio: https://ai.studio/apps/temp/1
+## 🚀 Features
+- AI-powered conversational chatbot (Gemini)
+- Fast and modern UI using Vite + React
+- Modular TypeScript code structure
+- Secure API key handling with environment variables
+- Clean and responsive interface
 
-## Run Locally
+---
 
-**Prerequisites:**  Node.js
+## 🛠 Tech Stack
+- Frontend: React + TypeScript
+- Build Tool: Vite
+- AI Model: Google Gemini (Google AI Studio)
+- Styling: CSS / Tailwind CSS (if applicable)
+
+---
 
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+---
+
+## ⚙️ Setup & Run Locally
+
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/deepak-5656/Ecommercechatbot.git
+cd Ecommercechatbot
+2️⃣ Install dependencies
+npm install
+
+3️⃣ Configure Environment Variables
+
+Create a .env.local file in the root directory:
+
+
+4️⃣ Start the development server
+npm run dev
+VITE_API_KEY=your_api_key_here
