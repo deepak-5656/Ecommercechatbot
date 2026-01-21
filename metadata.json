@@ -1,0 +1,8 @@
+
+{
+  "name": "Shop Veo AI Assistant",
+  "description": "A sophisticated AI-powered chatbot designed specifically for Shop Veo to handle customer inquiries, order tracking, and lead generation.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
